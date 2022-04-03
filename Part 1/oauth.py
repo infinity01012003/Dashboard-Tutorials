@@ -16,7 +16,7 @@ class Oauth:
             "client_secret": Oauth.client_secret,
             "grant_type": "authorization_code",
             "code": code,
-            "redirect_uri": Oauth.redirect_uri,
+            "redirect_url": Oauth.redirect_url,
             "scope": Oauth.scope
         }
  
